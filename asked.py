@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 import time
 
-
 input_text = ""
 repeat_num = 0
 
@@ -39,4 +38,4 @@ repeat_num = int(input())
 
 send_text()
 
-print("성공 및 종료")
+print("성공 및 종료!")
